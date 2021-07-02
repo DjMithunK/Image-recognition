@@ -34,7 +34,7 @@ function result(error,results){
     else{
         console.log(results);
         document.getElementById("result_object_name").innerHTML= results[0].label;
-        document.getElementById("result_object_accuracy").innerHTML= results[0].confidence.tofixed(2);
+        document.getElementById("object_accuracy").innerHTML= results[0].confidence.tofixed(2);
 
     }
 
